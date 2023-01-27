@@ -12,4 +12,5 @@ void PrintArray(int[] array)
 }
 int[] array = new int[8];
 PrintArray(array);
+
 Console.WriteLine(string.Join("," , array ));
