@@ -14,5 +14,6 @@ void MetodRandom(int[] array, int find )
 
  }
 
+
 }
 MetodRandom(array,find : 1 );
