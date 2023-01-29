@@ -7,12 +7,12 @@ Console.Write("Введите размер массива  - ");
     int i = 0;
 void ArrayRandom( int [] array )
    {
-        for (int index = 0; index < size; index = index + 1)
+        for (int index = 0; index < size ; index = index + 1)
     {
         array [index] = new Random().Next(1 , 10);
     }
     
-    while (i <= size)
+    while (i <= size / 2)
     {
          summ = array[i] * array[size - 1] ; 
          size = size -1;
